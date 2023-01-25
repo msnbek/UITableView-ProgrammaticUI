@@ -12,6 +12,9 @@
 		ED30E50D298113D100FD9C2E /* CityListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30E50C298113D100FD9C2E /* CityListVC.swift */; };
 		ED30E512298113D400FD9C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED30E511298113D400FD9C2E /* Assets.xcassets */; };
 		ED30E515298113D400FD9C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED30E513298113D400FD9C2E /* LaunchScreen.storyboard */; };
+		ED30E51D29811D3400FD9C2E /* UIView + Ext..swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30E51C29811D3400FD9C2E /* UIView + Ext..swift */; };
+		ED30E51F29811EF300FD9C2E /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30E51E29811EF300FD9C2E /* CityCell.swift */; };
+		ED30E5212981239600FD9C2E /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30E5202981239600FD9C2E /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		ED30E511298113D400FD9C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED30E514298113D400FD9C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED30E516298113D400FD9C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED30E51C29811D3400FD9C2E /* UIView + Ext..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext..swift"; sourceTree = "<group>"; };
+		ED30E51E29811EF300FD9C2E /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		ED30E5202981239600FD9C2E /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		ED30E507298113D100FD9C2E /* UITableView-Programmatic */ = {
 			isa = PBXGroup;
 			children = (
-				ED30E508298113D100FD9C2E /* AppDelegate.swift */,
-				ED30E50A298113D100FD9C2E /* SceneDelegate.swift */,
-				ED30E50C298113D100FD9C2E /* CityListVC.swift */,
-				ED30E511298113D400FD9C2E /* Assets.xcassets */,
-				ED30E513298113D400FD9C2E /* LaunchScreen.storyboard */,
+				ED9F37C129813D1C00FAF329 /* Services */,
+				ED9F37BE29813CFC00FAF329 /* Controllers */,
+				ED9F37BF29813D0A00FAF329 /* Model */,
+				ED9F37C029813D1400FAF329 /* View */,
 				ED30E516298113D400FD9C2E /* Info.plist */,
 			);
 			path = "UITableView-Programmatic";
+			sourceTree = "<group>";
+		};
+		ED9F37BE29813CFC00FAF329 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED30E50C298113D100FD9C2E /* CityListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED9F37BF29813D0A00FAF329 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED30E5202981239600FD9C2E /* City.swift */,
+				ED30E51C29811D3400FD9C2E /* UIView + Ext..swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED9F37C029813D1400FAF329 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED30E51E29811EF300FD9C2E /* CityCell.swift */,
+				ED30E513298113D400FD9C2E /* LaunchScreen.storyboard */,
+				ED30E511298113D400FD9C2E /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED9F37C129813D1C00FAF329 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED30E508298113D100FD9C2E /* AppDelegate.swift */,
+				ED30E50A298113D100FD9C2E /* SceneDelegate.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED30E50D298113D100FD9C2E /* CityListVC.swift in Sources */,
+				ED30E51D29811D3400FD9C2E /* UIView + Ext..swift in Sources */,
+				ED30E5212981239600FD9C2E /* City.swift in Sources */,
+				ED30E51F29811EF300FD9C2E /* CityCell.swift in Sources */,
 				ED30E509298113D100FD9C2E /* AppDelegate.swift in Sources */,
 				ED30E50B298113D100FD9C2E /* SceneDelegate.swift in Sources */,
 			);
